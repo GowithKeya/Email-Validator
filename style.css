@@ -16,6 +16,7 @@ nav {
     padding: 19px 12px;
 }
 
+
 ul {
     display: flex;
 }
@@ -38,9 +39,20 @@ main {
     min-height: 100vh;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .logo img {
-    width: 15px;
-    filter: invert(1);
+    height: 40px;
+    width: auto;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .container {
@@ -84,6 +96,15 @@ footer {
     justify-content: center;
     align-items: center;
 }
+footer a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    color: rgb(192, 189, 205);
+}
+
 
 @media only screen and (max-width: 600px) {
 
